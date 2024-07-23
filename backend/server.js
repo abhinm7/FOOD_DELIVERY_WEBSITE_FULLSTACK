@@ -6,7 +6,7 @@ import foodRouter from "./routes/foodRoute.js";
 //app config
 
 const app = express()
-const port = 4000;
+const port = 5000;
 
 //middleware 
 
@@ -20,6 +20,7 @@ connectDb();
 //api endpoint
 
 app.use('/api/food',foodRouter)
+app.use('/images',express.static('uploads'))
  
 
 app.get("/",(request,response)=>{
@@ -27,7 +28,7 @@ app.get("/",(request,response)=>{
 })
 
 app.listen(port,()=>[
-    console.log(`server started on http://localhost:4000/`)
+    console.log(`server started on http://localhost:${port}/`)
 ])
 
 //mongodb+srv://abhinm:abhin123@cluster0.q32dmdd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
