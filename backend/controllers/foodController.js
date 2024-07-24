@@ -24,7 +24,6 @@ const addFood = async (req, res) => {
 const listFood = async (req, res) => {
   try {
     const foods = await foodModel.find({})
-    console.log("succesfully listed");
     res.json({ status: true, data: foods })
   } catch (err) {
     console.log("errrors are :",err);
