@@ -13,7 +13,8 @@ font-size: max(1vw,12px);
     color: black;
 }
 .cart-items-item img{
-    width: 50px;
+    width: 70px;
+    height: 50px;
     border-radius: 4px;
 }
 .cart hr{
