@@ -92,5 +92,10 @@ font-size: max(1vw,12px);
      .cart-promocode{
         justify-content: start;
      }
+     .cart-items-item img{
+        width: 45px;
+        height: 30px;
+        border-radius: 4px;
+    }
 }
  
