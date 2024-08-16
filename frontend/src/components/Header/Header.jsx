@@ -7,9 +7,8 @@ const Header = () => {
 
         <div className="header-contents">
             <h2>Order Favourite food here</h2>
-            <p>Food provides essential nutrients for overall health and well-being",
-            category: "Salad Food provides essential nutrients for overall health and well-being",
-            category: "Salad</p>
+            <p>Food brings people together on many different levels. It's nourishment of the soul and body; it's truly love.
+           </p>
             <button>View Menu</button>
         </div>
     </div>
