@@ -85,6 +85,9 @@ font-size: max(1vw,12px);
     color: white;
     border-radius:4px;
 }
+.promo-strike{
+    text-decoration: line-through;
+  }
 @media (max-width:750px){
      .cart-bottom{
         flex-direction: column-reverse;
