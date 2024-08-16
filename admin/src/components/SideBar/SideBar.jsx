@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './SideBar.css'
 import { assets } from '../../assets/assets'
 import { NavLink } from 'react-router-dom'
 
 const SideBar = () => {
+
+  const [activeBorder,setActiveBorder] = useState('sidebar-option.active')
+
   return (
     <div className='sidebar'>
       <div className="sidebar-options">
 
-        <NavLink to='/add ' className="sidebar-option">
+        <NavLink to='/add' className="sidebar-option">
           <img src={assets.add_icon} alt="" />
           <p>Add Items</p>
         </NavLink>
